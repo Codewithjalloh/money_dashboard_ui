@@ -14,11 +14,11 @@ class _DetailDashboardPageState extends State<DetailDashboardPage> {
   Widget build(BuildContext context) {
     var data = [
       ClickPerMonth("Jan", 30, Colors.purple),
-      ClickPerMonth("Jan", 42, Colors.blue),
-      ClickPerMonth("Jan", 54, Colors.purple),
-      ClickPerMonth("Jan", 20, Colors.blue),
-      ClickPerMonth("Jan", 76, Colors.purple),
-      ClickPerMonth("Jan", 35, Colors.blue),
+      ClickPerMonth("Feb", 42, Colors.blue),
+      ClickPerMonth("Mar", 54, Colors.purple),
+      ClickPerMonth("Apr", 20, Colors.blue),
+      ClickPerMonth("May", 76, Colors.purple),
+      ClickPerMonth("Jun", 35, Colors.blue),
     ];
 
     var series = [
